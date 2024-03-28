@@ -69,7 +69,7 @@ fn main() {
     println!("{:#?}",transaction_log);
     transaction_log.append(String::from("Second"));
     println!("{:#?}",transaction_log);
-    transaction_log.append(String::from("This"));
+    transaction_log.append(String::from("Third"));
     println!("{:#?}",transaction_log);
     transaction_log.pop();
     println!("POP:{:#?}",transaction_log);
